@@ -1,10 +1,14 @@
 import React from 'react';
-
+import {Header} from "./components/Header/Header";
+import {Users} from "./components/Users/Users";
 const App = () => {
   return (
+
       <div>
-        HELLO world
+          <Header/>
+          <Users/>
       </div>
+
   );
 };
 
